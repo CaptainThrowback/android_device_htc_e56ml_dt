@@ -41,7 +41,7 @@
 #include <sys/stat.h>
 #include <sys/mount.h>
 
-#define DEV_BLOCK_SYSTEM "/dev/block/platform/mtk-msdc.0/by-name/system"
+#define DEV_BLOCK_SYSTEM "/dev/block/platform/mtk-msdc.0/11230000.MSDC0/by-name/system"
 
 void set_props_from_file(const char *filename)
 {
